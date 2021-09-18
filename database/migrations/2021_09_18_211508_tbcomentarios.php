@@ -13,7 +13,7 @@ class Tbcomentarios extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('tbcomentarios', function (Blueprint $table) {
             $table->id();
             $table->string('nome');
             $table->string('email');
@@ -29,6 +29,6 @@ class Tbcomentarios extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('tbcomentarios');
     }
 }

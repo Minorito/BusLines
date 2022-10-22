@@ -107,11 +107,6 @@
 }
 
 </style>
-<BODY>
-<?php
-$link=mysqli_connect('localhost','root','coxinha123');
-$banco=mysqli_select_db($link, "bdcomentarios");
-?>
 
 <form name="form" method=POST action = "/comentarios" class="container" >
 <h2>Deixe seu comentário </h3>
